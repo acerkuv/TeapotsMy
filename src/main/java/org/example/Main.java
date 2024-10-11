@@ -20,7 +20,7 @@ public class Main {
 
     }
 
-    private static Map countColors(Teapot[] array) {
+    private static Map<String,Integer> countColors(Teapot[] array) {
         Map<String, Integer> unique = new HashMap<>();
         for(Teapot t: array){
             int uniCount = 0;
@@ -31,7 +31,7 @@ public class Main {
         }
         return unique;
     }
-    private static Map countVolumes(Teapot[] array) {
+    private static Map<String,Integer> countVolumes(Teapot[] array) {
         Map<String, Integer> unique = new HashMap<>();
         for(Teapot t: array){
             int uniCount = 0;
